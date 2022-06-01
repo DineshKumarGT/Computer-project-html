@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+.logo{
+    width: 100px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 33%;
+border: 3px solid white;
+border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.nav-list{
+width: 30%;
+
+display: flex;
+align-items: center;
+
+}
+.nav-list li{
+list-style: none;
+padding: 26px 30px;
+
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+    
+.nav-list lia :hover {
+text-decoration: none;
+color: white;
+}
+.rightnav{
+width: 70%;
+text-align: right;
+
+}
+#search{
+    padding: 6px;
+    font-size: 18px;
+ border-radius: 100px;
+}
+.background{
+    background:rgba(0, 0, 0, 0.2) url(https://www.mistay.in/blog/content/images/size/w2000/2016/04/luxury-in-your-budget-2_v2-1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+.firsthalf{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+.secondhalf{
+  
+
+
+}
+.secondhalf img{
+    width: 70%;
+    border: 4px solid white;
+border-radius: 100px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 40px;
+
+}
+.text-small{
+font-size: 25px;
+}
+.btn{
+    padding: 8px 20px;
+margin: 7px 0;
+border: 2px solid white;
+border-radius: 8px;
+background: none;
+color: aliceblue;
+cursor: pointer;
+}
+.section{
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif ;
+   
+   
+    
+}
+.left{
+    flex-direction: row-reverse;
+        height: 500px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 80%;
+        margin: auto;
+        font-family: 'Ubuntu', sans-serif;
+}
+.paras{
+    padding: 0px 65px;
+}
+.section duma{ 
+    align-items: center;
+}
